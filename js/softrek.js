@@ -145,7 +145,7 @@
 		options.params = params;
 
 		var ft = new FileTransfer();
-		ft.upload(fileURL, encodeURI("http://some.server.com/upload.php"), win, fail, options);
+		ft.upload(fileURL, encodeURI("http://democv.softrek.com:8082/clearview-api/view/prospect/1/attachments"), win, fail, options);
     }
 
 
