@@ -1,3 +1,5 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+
 function handleLogin() {
     var form = $("#loginForm");    
     //disable the button so we can't resubmit while we wait
