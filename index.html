@@ -20,7 +20,7 @@
     under the License.
 	
 	 
-    * Authors: Tom Ludwig &
+    * Authors: Tom Ludwig & Michael Kulbacki & Glen
     * Project: Softrek Photo Upload
     * Description: Program using Phonegap to upload pictures to a server                                 
                    and allow tag and search functionality
@@ -40,16 +40,16 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>Hello World</title>
     </head>
     <body>
         <div class="app">
-            <h1>SofTrek</h1>
+            <center><h1>SofTrek</h1></center>
             <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+                <center><p class="event listening">Connecting to Device</p></center>
+                <center><p class="event received">Device is Ready</p></center>
             </div>
         </div>			
 		
@@ -64,20 +64,19 @@
 	
     <!-- BUTTONS FOR CLICKING -->
     <div class="picButtons">
-    		<button onclick="init()">Initialize Login</button>
-    		<br>
-    		<button onclick="checkPreAuth()">Login</button>
-    		<br>
-		<button onclick="takePic();">Take a Picture</button>
-		<br>
-		<button onclick="uploadPic();">Upload Picture</button>
-		<br>
-		<button onclick="getPic(pictureSource.PHOTOLIBRARY);">Select from Library</button>
-		<br>
-		<button onclick="getPic(pictureSource.SAVEDPHOTOALBUM);">Select from Album</button>
-		<br>
-	    <img id="myImage" src="" left: 50%; style="width:250px; height:120px; margin-left:-125px; position: absolute"></img>
-        <br>
+    	<center><button onclick="init()">Initialize Login</button></center>
+    	<br />
+    	<center><button onclick="checkPreAuth()">Login</button></center>
+    	<br />
+		<center><button onclick="takePic();">Take a Picture</button></center>
+		<br />
+		<center><button onclick="uploadPic();">Upload Picture</button></center>
+		<br />
+		<center><button onclick="getPic(pictureSource.PHOTOLIBRARY);">Select from Library</button></center>
+		<br />
+		<center><button onclick="getPic(pictureSource.SAVEDPHOTOALBUM);">Select from Album</button></center>
+		<br />
+	    
 	</div>	
 		
     </body>
